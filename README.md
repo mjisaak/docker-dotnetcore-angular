@@ -1,5 +1,5 @@
 # Build container for dotnet Angular projects
-Docker image to build dotnet core based Angular projects
+[mjibrandl/dotnetcore-angular](https://cloud.docker.com/u/mjibrandl/repository/docker/mjibrandl/dotnetcore-angular) is a docker image to build dotnet core based Angular projects. 
 
 This image is based on *microsoft/dotnet:2.2-sdk* and contains everything you need to build a dotnet core based Angular project:
 * Node.js 8.x LTS
