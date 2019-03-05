@@ -9,8 +9,7 @@ This image is based on *microsoft/dotnet:2.2-sdk* and contains everything you ne
 
 The image will reduce your build time to a minimum since you don't have to run ```npm rebuild node-sass``` for every build.
 
-
-[![Build Status](https://dev.azure.com/mjisaak/dockerhub-dotnetcore-angular/_apis/build/status/dockerhub-dotnetcore-angular?branchName=master)](https://dev.azure.com/mjisaak/dockerhub-dotnetcore-angular/_build/latest?definitionId=5&branchName=master)
+[![Build Status](https://dev.azure.com/mjisaak/dockerhub-dotnetcore-angular/_apis/build/status/mjisaak.docker-dotnetcore-angular?branchName=master)](https://dev.azure.com/mjisaak/dockerhub-dotnetcore-angular/_build/latest?definitionId=4&branchName=master)
 
 # Usage
 
