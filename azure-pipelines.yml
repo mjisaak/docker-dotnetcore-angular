@@ -1,0 +1,23 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+- task: Docker@0
+  displayName: 'Build an image'
+  inputs:
+    containerregistrytype: 'Container Registry'
+    dockerRegistryConnection: 'dockerhub-mjibrandl'
+    imageName: 'mjibrandl/dotnetcore-angular:$(Build.BuildId)'
+    includeLatestTag: true
+
+- task: Docker@0
+  displayName: 'Push an image'
+  inputs:
+    containerregistrytype: 'Container Registry'
+    dockerRegistryConnection: 'dockerhub-mjibrandl'
+    action: 'Push an image'
+    imageName: 'mjibrandl/dotnetcore-angular:$(Build.BuildId)'
+    includeLatestTag: true
