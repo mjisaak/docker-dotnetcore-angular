@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2-alpine3.9
 
 LABEL maintainer="martin.brandl@whiteduck.de" \
 org.label-schema.vcs-url="https://github.com/mjisaak/docker-dotnetcore-angular"
